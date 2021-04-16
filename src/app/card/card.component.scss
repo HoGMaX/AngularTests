@@ -1,0 +1,59 @@
+.card {
+    padding: 3%;
+    width: calc(100% - 6%-3px);
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    -webkit-box-shadow: 3px 3px 7px 2px rgba(35,35,35,0.5); 
+    box-shadow: 3px 3px 7px 2px rgba(35,35,35,0.5);
+    border-left: 3px solid #c47021;
+}
+.card__block {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    justify-content: space-between;
+
+}
+.card__title {
+    font-family: 'Raleway',sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+    color: #ccc;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.9);
+}
+.card__sub-title {
+    font-family: 'Muli',sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    color: #ccc;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.9);
+}
+.seperator {
+    display: inline-block;
+    background-color: #ccc;
+    width: 65%;
+    height: 2px;
+    margin: 1.5vh 0;
+}
+.card__list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    font-family: 'Muli',sans-serif;
+    font-weight: 400;
+    color: #ccc;
+    li:not(:last-of-type),
+    li:not(:first-of-type){
+        margin: .5em 0;
+    }
+     
+}
+.card__img {
+    margin: 0 0 0 5%;
+    width: 250px;
+    height: 250px;
+    // border-radius: 50%;
+    background: rgba(128, 141, 151, 0.151) url(../../assets/my-photo.jpg)100% / cover;
+    background-blend-mode: multiply;
+}

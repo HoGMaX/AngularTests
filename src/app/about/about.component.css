@@ -1,0 +1,44 @@
+.about-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: calc(100% - 20% - 3px);
+  padding: 3% 10%;
+  background-color: #333;
+  margin: 5vh 0 0 0;
+  -webkit-box-shadow: 3px 3px 7px 2px rgba(35, 35, 35, 0.5);
+  box-shadow: 3px 3px 7px 2px rgba(35, 35, 35, 0.5);
+  border-left: 3px solid #c47021;
+}
+
+.about-title {
+  font-size: 2.5em;
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #999;
+  margin: 5vh 0 0 0;
+  text-align: center;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+.about-card__text {
+  font-size: 1em;
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #ccc;
+  margin: 1vh 0 0 0;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.9);
+}
+/*# sourceMappingURL=about.component.css.map */
